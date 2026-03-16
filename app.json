@@ -20,10 +20,12 @@
       "buildNumber": "1.0.0",
       "infoPlist": {
         "UIBackgroundModes": [
+          "audio",
           "audio"
         ],
         "NSMicrophoneUsageDescription": "This app needs access to microphone to record audio for alarms",
-        "NSPhotoLibraryUsageDescription": "This app needs access to photo library to select alarm sounds"
+        "NSPhotoLibraryUsageDescription": "This app needs access to photo library to select alarm sounds",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
